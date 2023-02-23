@@ -16,7 +16,7 @@
     "systems": [{
       "id": "pf2e",
       "type": "system",
-      "manifest": "",
+      "manifest": "https://github.com/kritikalKreznik/sage-module/blob/main/pf2e-sage/module.json",
       "compatibility": {
         "minimum": "4.0.6"
       }
