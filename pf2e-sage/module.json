@@ -1,0 +1,101 @@
+{
+  "id": "pf2e-sage",
+  "title": "Sage",
+  "description": "The Sage Class.",
+  "url": "",
+  "version": "1.0",
+  "authors": [
+    {"name": "Author 1"},
+    {"name": "Author 2"}
+  ],
+  "compatibility": {
+    "minimum": "10.285",
+    "verified": "10.285"
+  },
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "manifest": "",
+      "compatibility": {
+        "minimum": "4.0.6"
+      }
+    }]
+  },
+  "packs": [
+	{
+		"label": "Sage Actions",
+		"name": "pf2e-sage-actions",
+		"path": "packs/actions.db",
+		"system": "pf2e",
+		"private": false,
+		"type": "Item"
+	},
+	{
+		"label": "Sage Class",
+		"name": "pf2e-sage-class",
+		"path": "packs/class.db",
+		"system": "pf2e",
+		"private": false,
+		"type": "Item"
+	},
+	{
+		"label": "Sage Effects",
+		"name": "pf2e-sage-effects",
+		"path": "packs/effects.db",
+		"system": "pf2e",
+		"private": false,
+		"type": "Item"
+	},
+	{
+		"label": "Sage Equipment",
+		"name": "pf2e-sage-equipment",
+		"path": "packs/equipment.db",
+		"system": "pf2e",
+		"private": false,
+		"type": "Item"
+	},
+	{
+		"label": "Sage Feats",
+		"name": "pf2e-sage-feats",
+		"path": "packs/feats.db",
+		"system": "pf2e",
+		"private": false,
+		"type": "Item"
+	},
+	{
+		"label": "Sage Features",
+		"name": "pf2e-sage-features",
+		"path": "packs/features.db",
+		"system": "pf2e",
+		"private": false,
+		"type": "Item"
+	},
+	{
+		"label": "Sage Spells",
+		"name": "pf2e-sage-spells",
+		"path": "packs/spells.db",
+		"system": "pf2e",
+		"private": false,
+		"type": "Item"
+	}
+  ],
+  "flags": {
+    "pf2e-sage": {
+      "pf2e-homebrew": {
+        "featTraits": 
+		{
+          "sage": "Sage"
+        },
+		"spellTraits": 
+		{
+          "sage": "Sage"
+        },
+		"weaponTraits": 
+		{
+          "sage": "Sage"
+        }
+				}
+			}
+		}
+}
