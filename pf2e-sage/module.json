@@ -2,7 +2,6 @@
   "id": "pf2e-sage",
   "title": "Sage",
   "description": "The Sage Class.",
-  "url": "https://github.com/kritikalKreznik/sage-module",
   "version": "1.0",
   "authors": [
     {"name": "Author 1"},
@@ -16,8 +15,6 @@
     "systems": [{
       "id": "pf2e",
       "type": "system",
-      "manifest": "https://raw.githubusercontent.com/kritikalKreznik/sage-module/main/pf2e-sage/module.json",
-      "download": "https://github.com/kritikalKreznik/sage-module/archive/refs/heads/master.zip",
       "compatibility": {
         "minimum": "4.0.6"
       }
@@ -99,4 +96,7 @@
 				}
 			}
 		}
+"url": "https://github.com/kritikalKreznik/sage-module",
+"manifest": "https://raw.githubusercontent.com/kritikalKreznik/sage-module/main/pf2e-sage/module.json",
+"download": "https://github.com/kritikalKreznik/sage-module/archive/refs/heads/master.zip",
 }
