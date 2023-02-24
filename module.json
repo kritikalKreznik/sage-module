@@ -4,7 +4,7 @@
   "description": "The Sage Class.",
   "url": "https://github.com/kritikalKreznik/sage-module",
   "version": "1.0",
-  "manifest": "https://raw.githubusercontent.com/kritikalKreznik/sage-module/main/pf2e-sage/module.json",
+  "manifest": "https://raw.githubusercontent.com/kritikalKreznik/sage-module/main/module.json",
   "download": "https://github.com/kritikalKreznik/sage-module/archive/refs/heads/master.zip",
   "authors": [
     {"name": "Author 1"},
